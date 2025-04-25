@@ -114,6 +114,14 @@
         android:order="-135"
         settings:controller="com.android.settings.notification.IncreasingRingVolumePreferenceController" />
 
+    <!-- Per-app volume control -->
+    <com.android.settings.widget.preferences.SystemSettingSwitchPreference
+        android:key="show_app_volume"
+        android:title="@string/show_app_volume_title"
+        android:order="-133"
+        android:summary="@string/show_app_volume_summary"
+        android:defaultValue="false" />
+
     <!-- Also vibrate for calls -->
     <Preference
         android:fragment="com.android.settings.sound.VibrateForCallsPreferenceFragment"

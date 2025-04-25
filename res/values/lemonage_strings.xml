@@ -17,4 +17,8 @@
     <string name="swipe_to_screenshot_title">Swipe to screenshot</string>
     <string name="swipe_to_screenshot_summary">Swipe 3 fingers down the screen to take a screenshot</string>
 
+    <!-- Per-app volume control -->
+    <string name="show_app_volume_title">Per-app volume control</string>
+    <string name="show_app_volume_summary">Allow setting different volume levels for each app</string>
+
 </resources>
